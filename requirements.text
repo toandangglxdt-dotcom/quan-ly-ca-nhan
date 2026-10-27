@@ -5,3 +5,5 @@ openpyxl
 sqlalchemy
 psycopg2-binary
 google-genai
+google
+google.genai
