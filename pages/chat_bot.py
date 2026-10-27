@@ -5,9 +5,6 @@ from google.genai import types
 
 st.title("🤖 Chat bot")
 
-#API key
-anthropic_client = anthropic.Anthropic(api_key = st.secrets["anthropic_api_key"])
-
 ##Gemini
 client = genai.Client(api_key = st.secrets["gemini_api_key"])
 model = "gemini-3.5-flash"
