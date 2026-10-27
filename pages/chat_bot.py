@@ -1,6 +1,5 @@
 import time
 import streamlit as st
-import anthropic
 from google import genai
 from google.genai import types
 
